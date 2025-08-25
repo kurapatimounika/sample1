@@ -4,7 +4,7 @@ public class prime {
         System.out.println("Prime numbers from 1 to 100 are:");
 
         // Loop through numbers from 2 to 100
-        for (int i = 2; i <= 500; i++) {
+        for (int i = 2; i <=100; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
             }
@@ -29,3 +29,4 @@ public class prime {
     }
 
 }
+
